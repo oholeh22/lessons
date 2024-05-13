@@ -4,50 +4,91 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chocolate Shop</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href=""
-          >SIMPLY CHOCOLATE <img src="./images/Vector.svg" alt="logo icon"
+    <header class="header">
+      <nav class="header-navigation">
+        <a class="header-logo" href=""
+          >SIMPLY CHOCOLATE
+          <img
+            src="./images/Vector.svg"
+            class="header-logo-image"
+            alt="logo icon"
         /></a>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">How it’s made?</a></li>
-          <li><a href="">Chocolate is loved</a></li>
+        <ul class="header-menu-list">
+          <li class="header-menu-item">
+            <a class="header-menu-link" link="">Home</a>
+          </li>
+          <li class="header-menu-item">
+            <a class="header-menu-link" link="">How it’s made?</a>
+          </li>
+          <li class="header-menu-item">
+            <a class="header-menu-link" link="">Chocolate is loved</a>
+          </li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="" target="_blank" rel="noopener noreferrer">insta</a></li>
-        <li><a href="" target="_blank" rel="noopener noreferrer">fb</a></li>
-        <li><a href="" target="_blank" rel="noopener noreferrer">twit</a></li>
+      <ul class="header-social-list">
+        <li class="header-social-item">
+          <a
+            class="header-social-link"
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            >insta</a
+          >
+        </li>
+        <li class="header-social-item">
+          <a
+            class="header-social-link"
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            >fb</a
+          >
+        </li>
+        <li class="header-social-item">
+          <a
+            href=""
+            class="header-social-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            >twit</a
+          >
+        </li>
       </ul>
     </header>
     <main>
-      <section>
-        <h1>
+      <section class="hero">
+        <h1 class="hero-title">
           Treat yourself or a loved one to our finest ingredients for a moment
           of pure delight!
         </h1>
-        <button type="button">Buy now</button>
-        <a href="">How it’s made</a>
-        <a href="">scroll down</a>
+        <button type="button" class="hero-btn">Buy now</button>
+        <a href="#made" class="made-link">How it’s made</a>
+        <a href="" class="hero-scroll-link">scroll down</a>
       </section>
       <section>
         <h2 hidden>Benefits</h2>
-        <ul>
+        <ul class="list">
           <li>
             <h3>Unsurpassed taste</h3>
-            <p>
+            <p class="text taste-text" id="text">
               Crafted with the finest quality cocoa beans and a dedication to
               perfection, each bite is a decadent experience that simply cannot
               be matched. Savor the richness and complexity of our Unsurpassed
               Taste and discover a new level of chocolate bliss.
             </p>
           </li>
-          <li>
+          <li class="list">
             <h3>Affordable price</h3>
-            <p>
+            <p class="text" id="text-second">
               Indulge in high-quality chocolate without breaking the bank with
               Simply Chocolate's selection of affordable treats. Enjoy
               mouth-watering truffles and velvety chocolate bars without
@@ -57,7 +98,7 @@
           </li>
           <li>
             <h3>Own production</h3>
-            <p>
+            <p class="text" id="text-third">
               We take pride in our own production process, ensuring that every
               step is carefully crafted to perfection. From selecting the finest
               ingredients to handcrafting each piece, our attention to detail is
@@ -140,7 +181,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section id="made">
         <h2>HOW IT’S <span>made?</span></h2>
         <img
           src="./images/made-choco.jpg"
@@ -151,7 +192,7 @@
         <h3>
           Try our chocolates today and discover the perfect balance of flavor
         </h3>
-        <ul>
+        <ul class="items">
           <li>
             <p>
               Heat the milk in a saucepan without bringing it to a boil. Add
