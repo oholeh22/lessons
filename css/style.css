@@ -31,17 +31,10 @@ a {
     color: #111;
 }
 
-/* .header-menu-link:hover {
-    color: #FD9222;
-} */
-
-/* .header-menu-link:active {
-    color: #FD9222;
-} */
-
-.header-menu-link:focus {
+.header-menu-link:hover, .header-menu-link:focus, .header-menu-link:active {
     color: #FD9222;
 }
+
 
 /* -----------------HEADER */
 
