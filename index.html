@@ -3,23 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chocolate Shop</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <title>Chocolate</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+
     <link
       rel="stylesheet"
-      href="https://cdnjs.com/libraries/modern-normalize"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
       <nav class="header-navigation">
-        <a class="header-logo" href=""
+        <a href="" class="header-logo"
           ><span class="header-logo-italic">SIMPLY</span> CHOCOLATE
           <img
             src="./images/Vector.svg"
@@ -28,20 +32,20 @@
         /></a>
         <ul class="header-menu-list">
           <li class="header-menu-item">
-            <a class="header-menu-link" link="">Home</a>
+            <a class="header-menu-link" href="">Home</a>
           </li>
           <li class="header-menu-item">
-            <a class="header-menu-link" link="">How it’s made?</a>
+            <a class="header-menu-link" href="">How it’s made?</a>
           </li>
           <li class="header-menu-item">
-            <a class="header-menu-link" link="">Chocolate is loved</a>
+            <a class="header-menu-link" href="">Chocolate is loved</a>
           </li>
         </ul>
       </nav>
       <ul class="header-social-list">
         <li class="header-social-item">
           <a
-            class="header-social-link"
+            class="header-socil-link"
             href=""
             target="_blank"
             rel="noopener noreferrer"
@@ -50,7 +54,7 @@
         </li>
         <li class="header-social-item">
           <a
-            class="header-social-link"
+            class="header-socil-link"
             href=""
             target="_blank"
             rel="noopener noreferrer"
@@ -59,8 +63,8 @@
         </li>
         <li class="header-social-item">
           <a
+            class="header-socil-link"
             href=""
-            class="header-social-link"
             target="_blank"
             rel="noopener noreferrer"
             >twit</a
@@ -68,6 +72,7 @@
         </li>
       </ul>
     </header>
+
     <main>
       <section class="hero">
         <h1 class="hero-title">
@@ -78,6 +83,7 @@
         <a href="#made" class="hero-made-link">How it’s made</a>
         <a href="" class="hero-scroll-link">scroll down</a>
       </section>
+
       <section class="benefits">
         <h2 class="visually-hidden">Benefits</h2>
         <ul class="benefits-list">
@@ -111,10 +117,10 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2 class="taste">
+      <section class="taste">
+        <h2 class="taste-title title">
           IT ALL ADDS UP TO ONE EXCEPTIONAL
-          <span class="taste-colored">TASTE</span> SENSATION
+          <span class="title-colored">TASTE</span> SENSATION
         </h2>
         <p class="taste-text">
           At Simply Chocolate, we believe that the secret to exceptional
@@ -176,28 +182,28 @@
           <li class="taste-item">
             <img
               src="./images/img-6-min.png"
-              alt="RASPBERRY"
               width="214"
               height="160"
               class="taste-image"
+              alt="RASPBERRY"
             />
             <h3 class="taste-subtitle">RASPBERRY</h3>
           </li>
           <li class="taste-item">
             <img
               src="./images/img-7-min.png"
-              alt="COCONUT OIL"
               width="214"
               height="160"
               class="taste-image"
+              alt="COCONUT OIL"
             />
             <h3 class="taste-subtitle">COCONUT OIL</h3>
           </li>
         </ul>
       </section>
       <section id="made" class="made">
-        <h2 class="made-title">
-          HOW IT’S <span class="title-colored">made?</span>
+        <h2 class="made-title title">
+          hOW IT’S <span class="title-colored">made?</span>
         </h2>
         <img
           src="./images/made-choco.jpg"
@@ -240,184 +246,198 @@
             </p>
           </li>
         </ul>
-        <section class="products">
-          <h2 class="products-title">
-            Our <span class="title-colored">PRODUCTS</span>
-          </h2>
-          <ul class="products-list">
-            <li class="products-item">
-              <img
-                src="./images/product-1.png"
-                alt="orange"
-                height="201"
-                width="230"
-              />
-              <h3 class="products-subtitle">Orange</h3>
-              <p class="item-description">Dark chocolate</p>
-              <button type="button" class="products-btn">45 UAH</button>
-            </li>
-            <li class="products-item">
-              <img
-                src="./images/product-2.jpg"
-                alt=""
-                height="201"
-                width="230"
-              />
-              <h3 class="products-subtitle">APPLE&CRANBERRY</h3>
-              <p class="item-description">Milk chocolate</p>
-              <button type="button" class="products-btn">50 UAH</button>
-            </li>
-            <li class="products-item">
-              <img
-                src="./images/product-3.png"
-                alt=""
-                height="201"
-                width="230"
-              />
-              <h3 class="products-subtitle">lime&sea salt</h3>
-              <p class="item-description">Dark chocolate</p>
-              <button type="button" class="products-btn">66 UAH</button>
-            </li>
-            <li class="products-item">
-              <img
-                src="./images/product-4.png"
-                alt=""
-                height="201"
-                width="230"
-              />
-              <h3 class="products-subtitle">PINEAPPLE</h3>
-              <p class="item-description">Dark chocolate</p>
-              <button type="button" class="products-btn">54 UAH</button>
-            </li>
-            <li class="products-item">
-              <img
-                src="./images/product-5.png"
-                alt=""
-                height="201"
-                width="230"
-              />
-              <h3 class="products-subtitle">Classic</h3>
-              <p class="item-description">Milk chocolate</p>
-              <button type="button" class="products-btn">45 UAH</button>
-            </li>
-            <li class="products-item">
-              <img
-                src="./images/product-6.png"
-                alt=""
-                height="201"
-                width="230"
-              />
-              <h3 class="products-subtitle">honey</h3>
-              <p class="item-description">Milk chocolate</p>
-              <button type="button" class="products-btn">50 UAH</button>
-            </li>
-            <li class="products-item">
-              <img
-                src="./images/product-7.png"
-                alt=""
-                height="201"
-                width="230"
-              />
-              <h3 class="products-subtitle">Roasted fruits</h3>
-              <p class="item-description">Dark chocolate</p>
-              <button type="button" class="products-btn">66 UAH</button>
-            </li>
-            <li class="products-item">
-              <img
-                src="./images/product-8.png"
-                alt=""
-                height="201"
-                width="230"
-              />
-              <h3 class="products-subtitle">Classic</h3>
-              <p class="item-description">White chocolate</p>
-              <button type="button" class="products-btn">54 UAH</button>
-            </li>
-          </ul>
-        </section>
-        <section class="sellers">
-          <h2 class="sellers-title">
-            Top <span class="title-colored">Sellers</span>
-          </h2>
-          <ul class="sellers-list">
-            <li class="sellers-item">
-              <img
-                src="./images/choco-3.png"
-                alt="CHOCOLATE WITH NUTS"
-                class="sellers-images"
-              />
-              <h3 class="sellers-subtitle">CHOCOLATE WITH NUTS</h3>
-            </li>
-            <li class="sellers-item">
-              <img
-                src="./images/choco-33.png"
-                alt="CHOCOLATE WITH FRUITS"
-                class="sellers-images"
-              />
-              <h3>CHOCOLATE WITH FRUITS</h3>
-            </li>
-            <li class="sellers-item">
-              <img
-                src="./images/choco-333.png"
-                alt="DARK CHOCOLATE"
-                class="sellers-images"
-              />
-              <h3>DARK CHOCOLATE</h3>
-            </li>
-          </ul>
-        </section>
-        <section class="reviews">
-          <h2 class="reviews-title">
-            <span class="taste-colored">chocolate</span> is loved
-          </h2>
-          <ul class="reviews-list">
-            <li class="reviews-item">
-              <img
-                src="./images/VICTORIA.png"
-                alt=""
-                width="80"
-                height="80"
-                class="reviews-images"
-              />
-              <h3 class="reviews-subtitle">Victoria Dobrzhanska</h3>
-              <p class="reviews-item-text">
-                I love this chocolate bar. Perfect combination of light crispy
-                wafer, covered in a thin layer chocolate.
-              </p>
-            </li>
-            <li class="reviews-item">
-              <img
-                src="./images/NAZAR.png"
-                alt=""
-                width="80"
-                height="80"
-                class="reviews-images"
-              />
-              <h3 class="reviews-subtitle">Nazar Babenko</h3>
-              <p class="reviews-item-text">
-                This chocolate confection is a delight! A delight! The wafer is
-                light and crisp, the hazelnut cream is smooth, and the chocolate
-                is good.
-              </p>
-            </li>
-            <li class="reviews-item">
-              <img
-                src="./images/OLENA.png"
-                alt=""
-                width="80"
-                height="80"
-                class="reviews-images"
-              />
-              <h3 class="reviews-subtitle">Olena Kampusch</h3>
-              <p class="reviews-item-text">
-                Chocolate is a family favourite treat. Love the delicious smooth
-                chocolate and the creaminess inside. The wafer is soft but
-                crunchy.
-              </p>
-            </li>
-          </ul>
-          <button type="button" class="reviews-btn">Leave a review</button>
-        </section>
+      </section>
+      <section class="products">
+        <h2 class="products-title title">
+          Our <span class="title-colored">pRODUCTS</span>
+        </h2>
+        <ul class="products-list">
+          <li class="products-item">
+            <img
+              src="./images/product-1.png"
+              width="230"
+              height="201"
+              alt="orange "
+              class="products-image"
+            />
+            <h3 class="products-subtitle">orange</h3>
+            <p class="products-item-description">Dark chocolate</p>
+            <button class="products-btn" type="button">66 UAH</button>
+          </li>
+          <li class="products-item">
+            <img
+              src="./images/product-2.jpg"
+              width="230"
+              height="201"
+              alt="APPLE&CRANBERRY"
+              class="products-image"
+            />
+            <h3 class="products-subtitle">APPLE&CRANBERRY</h3>
+            <p class="products-item-description">Milk chocolate</p>
+            <button class="products-btn" type="button">66 UAH</button>
+          </li>
+          <li class="products-item">
+            <img
+              src="./images/product-3.png"
+              width="230"
+              height="201"
+              alt="lime&sea salt"
+              class="products-image"
+            />
+            <h3 class="products-subtitle">lime&sea salt</h3>
+            <p class="products-item-description">Dark chocolate</p>
+            <button class="products-btn" type="button">66 UAH</button>
+          </li>
+          <li class="products-item">
+            <img
+              src="./images/product-4.png"
+              width="230"
+              height="201"
+              alt="pineapple"
+              class="products-image"
+            />
+            <h3 class="products-subtitle">pineapple</h3>
+            <p class="products-item-description">Dark chocolate</p>
+            <button class="products-btn" type="button">66 UAH</button>
+          </li>
+          <li class="products-item">
+            <img
+              src="./images/product-5.png"
+              width="230"
+              height="201"
+              alt="Classic"
+              class="products-image"
+            />
+            <h3 class="products-subtitle">Classic</h3>
+            <p class="products-item-description">Milk chocolate</p>
+            <button class="products-btn" type="button"></button>
+          </li>
+          <li class="products-item">
+            <img
+              src="./images/product-6.png"
+              width="230"
+              height="201"
+              alt="honey"
+              class="products-image"
+            />
+            <h3 class="products-subtitle">honey</h3>
+            <p class="products-item-description">Milk chocolate</p>
+            <button class="products-btn" type="button">66 UAH</button>
+          </li>
+          <li class="products-item">
+            <img
+              src="./images/product-7.png"
+              width="230"
+              height="201"
+              alt="Roasted fruits"
+              class="products-image"
+            />
+            <h3 class="products-subtitle">Roasted fruits</h3>
+            <p class="products-item-description">Dark chocolate</p>
+            <button class="products-btn" type="button">66 UAH</button>
+          </li>
+          <li class="products-item">
+            <img
+              src="./images/product-8.png"
+              width="230"
+              height="201"
+              alt="Classic"
+              class="products-image"
+            />
+            <h3 class="products-subtitle">Classic</h3>
+            <p class="products-item-description">White chocolate</p>
+            <button class="products-btn" type="button">54 UAH</button>
+          </li>
+        </ul>
+      </section>
+      <section class="sellers">
+        <h2 class="sellers-title title">
+          <span class="title-colored">tOp</span> Sellers
+        </h2>
+        <ul class="sellers-list">
+          <li class="sellers-item">
+            <img
+              src="./images/choco-3.png"
+              width="368"
+              height="464"
+              alt="CHOCOLATE WITH NUTS"
+              class="sellers-image"
+            />
+            <h3 class="sellers-subtitle">CHOCOLATE WITH NUTS</h3>
+          </li>
+          <li class="sellers-item">
+            <img
+              src="./images/choco-33.png"
+              width="368"
+              height="464"
+              alt="CHOCOLATE WITH FRUITS"
+              class="sellers-image"
+            />
+            <h3 class="sellers-subtitle">CHOCOLATE WITH FRUITS</h3>
+          </li>
+          <li class="sellers-item">
+            <img
+              src="./images/choco-333.png"
+              width="368"
+              height="464"
+              alt="DARK CHOCOLATE"
+              class="sellers-image"
+            />
+            <h3 class="sellers-subtitle">DARK CHOCOLATE</h3>
+          </li>
+        </ul>
+      </section>
+      <section class="reviews">
+        <h2 class="reviews-title title">
+          <span class="title-colored">chocolate</span> is loved
+        </h2>
+        <ul class="reviews-list">
+          <li class="reviews-item">
+            <img
+              src="./images/VICTORIA.png"
+              width="80"
+              height="80"
+              alt="Victoria Dobrzhanska"
+              class="reviews-image"
+            />
+            <h3 class="reviews-subtitle">Victoria Dobrzhanska</h3>
+            <p class="reviews-item-text">
+              I love this chocolate bar. Perfect combination of light crispy
+              wafer, covered in a thin layer chocolate.
+            </p>
+          </li>
+          <li class="reviews-item">
+            <img
+              src="./images/NAZAR.png"
+              width="80"
+              height="80"
+              alt="Nazar Babenko"
+              class="reviews-image"
+            />
+            <h3 class="reviews-subtitle">Nazar Babenko</h3>
+            <p class="reviews-item-text">
+              This chocolate confection is a delight! A delight! The wafer is
+              light and crisp, the hazelnut cream is smooth, and the chocolate
+              is good.
+            </p>
+          </li>
+          <li class="reviews-item">
+            <img
+              src="./images/OLENA.png"
+              width="80"
+              height="80"
+              alt="Olena Kampusch"
+              class="reviews-image"
+            />
+            <h3 class="reviews-subtitle">Olena Kampusch</h3>
+            <p class="reviews-item-text">
+              Chocolate is a family favourite treat. Love the delicious smooth
+              chocolate and the creaminess inside. The wafer is soft but
+              crunchy.
+            </p>
+          </li>
+        </ul>
+        <button type="button" class="reviews-btn">Leave a review</button>
       </section>
     </main>
     <footer class="footer">
@@ -451,11 +471,11 @@
             href=""
             target="_blank"
             rel="noopener noreferrer"
-            >twitter</a
+            >twit</a
           >
         </li>
       </ul>
-      <p>Contact us</p>
+      <p class="footer-subtitle">Contact us</p>
       <address class="footer-address">
         <ul class="footer-address-list">
           <li class="footer-address-item">
